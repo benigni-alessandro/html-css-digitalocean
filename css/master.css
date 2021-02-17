@@ -15,9 +15,9 @@
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   background-color: white;
-    color: black;
-    z-index: 3;
-    position: relative;
+  color: black;
+  z-index: 3;
+  position: relative;
 }
 .navbar-default .navbar-brand{
   vertical-align: middle;
@@ -492,6 +492,12 @@ body{
     width: 100%;
     padding-left: 13%;
     padding-right: 13%;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    color: black;
+    background-color: transparent;
+    z-index: 3;
+    position: relative;
   }
   #logo{
     height: 20px;
